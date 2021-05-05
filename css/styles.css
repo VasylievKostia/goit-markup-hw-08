@@ -386,12 +386,15 @@ img {
 
 .team-section {
   background-color: var(--ligth-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-section__item {
   background-color: var(--hero-text-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: var(--shadow);
+  text-align: center;
 }
 
 .member__name {
@@ -407,17 +410,19 @@ img {
   line-height: 1.19;
 }
 
+.member {
+  text-align: center;
+}
+
 .member-photo {
   display: block;
   margin: auto;
-  align-items: center;
   text-align: center;
 }
 
 .member-photo__thomb {
   margin: auto;
   outline: 1px solid blue;
-  align-items: center;
   text-align: center;
 }
 

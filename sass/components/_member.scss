@@ -13,15 +13,16 @@
 
 .member {
     // padding: 30px 32px;
+    text-align: center;
 }
 .member-photo {
     display: block;
     margin: auto;
-    align-items: center;
     text-align: center;
+
 }
 .member-photo__thomb {
     margin: auto;
     outline: 1px solid blue;
-    align-items: center;
-    text-align: center;}
+    text-align: center;
+}
