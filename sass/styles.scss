@@ -1,0 +1,42 @@
+@import "./utils/variables";
+
+@import "./base/common";
+@import "./layouts/conteiner";
+
+@import "./layouts/header";
+@import "./components/nav";
+@import "./components/contacts";
+@import "./components/header-logo";
+
+@import "./layouts/hero";
+@import "./components/hero-text";
+
+@import "./components/button";
+
+@import "./layouts/qualities";
+@import "./layouts/what-we-do";
+
+@import "./layouts/team";
+@import "./components/member";
+
+@import "./components/social-links";
+
+@import "./layouts/clients";
+
+@import "./components/footer-logo";
+@import "./layouts/footer";
+@import "./components/address";
+@import "./components/footer-socials";
+@import "./components/footer_form";
+
+@import "./layouts/portholio";
+@import "./components/portholio-buttons.scss";
+@import "./layouts/porholio-card-list";
+@import "./components/portholio-cards";
+
+@import "./layouts/backdrop";
+@import "./layouts/modal";
+@import "./components/button-close";
+@import "./components/mein-form";
+
+

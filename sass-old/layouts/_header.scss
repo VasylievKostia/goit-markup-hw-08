@@ -1,0 +1,16 @@
+.header {
+    max-width: 100%;
+    border-bottom: 1px solid var(--header-border-color);
+}
+
+.header__link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+}
+
+.header__conteiner {
+    display: flex;
+    align-items: center;  
+}
+

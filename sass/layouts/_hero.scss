@@ -1,0 +1,16 @@
+.hero {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background-color);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to bottom, 
+    var(--gradient-color), var(--gradient-color)),
+    url(../images/hero/img-1.jpg); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    
+}

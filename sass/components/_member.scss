@@ -1,0 +1,27 @@
+.member__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--header-color);
+  }
+
+.member__position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    }
+
+.member {
+    // padding: 30px 32px;
+}
+.member-photo {
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.member-photo__thomb {
+    margin: auto;
+    outline: 1px solid blue;
+    align-items: center;
+    text-align: center;}
