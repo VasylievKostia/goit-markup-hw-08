@@ -134,7 +134,7 @@
                     <ul class="list what-we-do__list">
                         <li class="what-we-do__item">
                             <div class="what-we-do__item-thomb">
-                            <img src="./images/img1.jpg" alt="Десктопные приложения" width="370">
+                            <img src="./images/desktop/what-we-do/img1.jpg" alt="Десктопные приложения" width="370">
                             <div class="what-we-do__card-description">
                                 <p class="what-we-do__description-text">Десктопные приложения</p>
                             </div>
@@ -143,7 +143,7 @@
                         
                         <li class="what-we-do__item">
                             <div class="what-we-do__item-thomb">
-                                <img src="./images/img2.jpg" alt="Мобильные приложения" width="370">
+                                <img src="./images/desktop/what-we-do/img2.jpg" alt="Мобильные приложения" width="370">
                                 <div class="what-we-do__card-description">
                                     <p class="what-we-do__description-text">Мобильные приложения</p>
                                 </div>
@@ -152,11 +152,11 @@
                         
                         <li class="what-we-do__item">
                             <div class="what-we-do__item-thomb">
-                                <img src="./images/img3.jpg" alt="Дизайнерские решения" width="370">
+                                <img src="./images/desktop/what-we-do/img3.jpg" alt="Дизайнерские решения" width="370">
                                 <div class="what-we-do__card-description">
                                     <p class="what-we-do__description-text">Дизайнерские решения</p>
                                 </div>
-                                </div>
+                            </div>
                         </li>
             </ul>
         </div>
@@ -168,7 +168,21 @@
            <ul class="list team-section__list">
                <li class="team-section__item">
                     <div class="member-photo__thomb">
-                        <img src="./images/team/tm1.jpg" alt="Игорь Демьяненко" width="270" height="260" сlass="member-photo">
+                        <picture>
+                            <source srcset="
+                                            ./images/desktop/team/tm1.jpg  1x,
+                                            ./images/desktop/team/tm1@2x.jpg 2x
+                                          " media="(min-width: 1200px)" />
+                            <source srcset="
+                                            ./images/tablet/team/tm1.jpg  1x,
+                                            ./images/tablet/team/tm1@2x.jpg 
+                                          " media="(min-width: 768px)" />
+                            <source srcset="
+                                            ./images/mobile/team/tm1.jpg  1x,
+                                            ./images/tablet/team/tm1@2x.jpg
+                                          " media="(max-width: 767px)" />
+                            <img src="./images/desktop/team/tm1.jpg" alt="Игорь Демьяненко" width="450" />
+                        </picture>
                     </div>
                     <div class="member">
                         <h3 class="member__name">Игорь Демьяненко</h3>
@@ -210,7 +224,21 @@
                 </li>
                 <li class="team-section__item">
                     <div class="member-photo__thomb">
-                        <img src="./images/team/tm2.jpg" alt="Ольга Репина" width="270" height="260" class="member__photo">
+                        <picture>
+                            <source srcset="
+                                ./images/desktop/team/tm2.jpg  1x,
+                                ./images/desktop/team/tm2@2x.jpg 2x
+                              " media="(min-width: 1200px)" />
+                            <source srcset="
+                                ./images/tablet/team/tm2.jpg  1x,
+                                ./images/tablet/team/tm2@2x.jpg 
+                              " media="(min-width: 768px)" />
+                            <source srcset="
+                                ./images/mobile/team/tm2.jpg  1x,
+                                ./images/tablet/team/tm2@2x.jpg
+                              " media="(max-width: 767px)" />
+                            <img src="./images/desktop/team/tm2.jpg" alt="Ольга Репина" width="450" />
+                        </picture>
                     </div>  
                     <div class="member">
                         <h3 class="member__name">Ольга Репина</h3>
@@ -253,7 +281,21 @@
                     </li>
                 <li class="team-section__item">
                     <div class="member-photo__thomb">
-                        <img src="./images/team/tm3.jpg" alt="Николай Тарасов" width="270" height="260" class="member__photo">
+                        <picture>
+                            <source srcset="
+                                ./images/desktop/team/tm3.jpg  1x,
+                                ./images/desktop/team/tm3@2x.jpg 2x
+                              " media="(min-width: 1200px)" />
+                            <source srcset="
+                                ./images/tablet/team/tm3.jpg  1x,
+                                ./images/tablet/team/tm3@2x.jpg 
+                              " media="(min-width: 768px)" />
+                            <source srcset="         
+                                 ./images/mobile/team/tm3.jpg  1x,        
+                                 ./images/tablet/team/tm3@2x.jpg      
+                               " media="(max-width: 767px)" />
+                            <img src="./images/desktop/team/tm3.jpg" alt="Николай Тарасов" width="450" />
+                        </picture>
                     </div>
                     <div class="member">
                         <h3 class="member__name">Николай Тарасов</h3>
@@ -296,7 +338,21 @@
                 </li>
                 <li class="team-section__item">
                     <div class="member-photo__thomb">
-                        <img src="./images/team/tm4.jpg" alt="Михаил Ермаков" width="270" height="260" class="member__photo">
+                        <picture>
+                            <source srcset="
+                                ./images/desktop/team/tm4.jpg  1x,
+                                ./images/desktop/team/tm4@2x.jpg 2x
+                              " media="(min-width: 1200px)" />
+                            <source srcset="
+                                ./images/tablet/team/tm4.jpg  1x,
+                                ./images/tablet/team/tm4@2x.jpg 
+                              " media="(min-width: 768px)" />
+                            <source srcset="         
+                                 ./images/mobile/team/tm4.jpg  1x,        
+                                 ./images/tablet/team/tm4@2x.jpg      
+                               " media="(max-width: 767px)" />
+                            <img src="./images/desktop/team/tm4.jpg" alt="Николай Тарасов" width="450" />
+                        </picture>
                     </div>
                     <div  class="member">
                         <h3 class="member__name">Михаил Ермаков</h3>
