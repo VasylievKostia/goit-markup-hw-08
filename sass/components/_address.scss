@@ -1,21 +1,21 @@
 .address__link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    }
-    
-    .address__link-white {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--hero-text-color);
-    }
-    
-    
-    
-    .address__item:not(:last-child) {
-        margin-bottom: 9px;
-    }
-    
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+.address__link-white {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--hero-text-color);
+}
+
+.address__item:not(:last-child) {
+	margin-bottom: 8px;
+	@media screen and (min-width: 1199px) {
+		margin-bottom: 9px;
+	}
+}

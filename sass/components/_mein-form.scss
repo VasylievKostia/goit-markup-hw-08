@@ -1,118 +1,113 @@
 .form {
-    width: 448px;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+	// max-width: 448px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .form__header {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    margin-bottom: 12px;
-    color: var(--header-color);
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+	text-align: center;
+	margin-bottom: 12px;
+	color: var(--header-color);
 }
 
 .form__label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
 }
 
 .form__label:nth-child(5) {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .form-input__name {
-margin-bottom: 4px;
+	margin-bottom: 4px;
 
-font-weight: 400;
-font-size: 12px;
-line-height: 1.16;
-letter-spacing: 0.01em;
-
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
 }
 
 .form-input {
-    border: 1px solid var(--form-border-color);
-    border-radius: 4px;
-
-    height: 40px;
-    padding: 12px 15px 12px 42px;
-    width: 100%;
-    transition: border-color var(--transformationt-time) var(--cubic-bezier),
-    outline var(--transformationt-time) var(--cubic-bezier);
+	border: 1px solid var(--form-border-color);
+	border-radius: 4px;
+	width: 100%;
+	height: 40px;
+	padding: 12px 15px 12px 42px;
+	max-width: 100%;
+	transition: border-color var(--transformationt-time) var(--cubic-bezier),
+		outline var(--transformationt-time) var(--cubic-bezier);
 }
 
 .form-input__icon {
-position: absolute;
-left: 15px;
-top: 50%;
-transform: translatey(-50%);
-transition: fill var(--transformationt-time) var(--cubic-bezier);
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	transform: translatey(-50%);
+	transition: fill var(--transformationt-time) var(--cubic-bezier);
 }
 
 .form-input__tomb {
-    position: relative;
+	position: relative;
 }
-
-
 
 .form-input__tomb:focus-within .form-input__icon,
 .form-input__tomb:focus-within .form-input {
-    fill: var(--logo-button-color);
-    border-color: var(--logo-button-color);
-    outline: var(--logo-button-color);
+	fill: var(--logo-button-color);
+	border-color: var(--logo-button-color);
+	outline: var(--logo-button-color);
 }
 
 .feedback {
-    padding: 12px 16px;
-    border: 1px solid var(--form-border-color);
-    border-radius: 4px;
-    resize: none;
-    margin-bottom: 20px;
+	padding: 12px 16px;
+	border: 1px solid var(--form-border-color);
+	border-radius: 4px;
+	resize: none;
+	margin-bottom: 20px;
 }
 
 .checkbox__icon {
-    width: 16px;
-    height: 15px;
-    border: 2px solid var(--header-color);
-    border-radius: 2px;
-    display: inline-flex;
-    margin-right: 7px;
-
+	width: 16px;
+	height: 15px;
+	border: 2px solid var(--header-color);
+	border-radius: 2px;
+	display: inline-flex;
+	margin-right: 7px;
 }
 
 .checkbox:checked + .checkbox__icon {
-    background-color: var(--logo-button-color);
-    background-image: url(../images/icon-check.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 2px solid var(--logo-button-color);
+	background-color: var(--logo-button-color);
+	background-image: url(../images/icon-check.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 2px solid var(--logo-button-color);
 }
 
 .form__link {
-    color: var(--logo-button-color);
+	color: var(--logo-button-color);
 }
 
 .checkbox__lable {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 30px;
 }
 
 .form-button {
-    margin-right: auto;
-    margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .form-button:hover,
 .form-button:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

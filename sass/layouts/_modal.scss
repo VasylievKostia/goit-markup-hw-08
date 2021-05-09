@@ -1,18 +1,41 @@
 .is-hidden .modal {
-    transform: translatey(-100%) scale(0.01);
-    }
-    
+	transform: translatey(-100%) scale(0.01);
+}
+
 .modal {
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%) scale(1);
-transition: transform var(--transformationt-time) var(--cubic-bezier) ;
-width: 100%;
-max-width: 528px;
-min-height: 581px;
-padding: 40px;
-background-color: var(--hero-text-color);
-box-shadow: var(--shadow);
-border-radius: 4px;
+	position: relative;
+	// left: 50%;
+	// top: 50%;
+	// transform: translate(-50%, -50%) scale(1);
+	// transition: transform var(--transformationt-time) var(--cubic-bezier);
+	width: 100%;
+	max-width: 450px;
+	padding: 40px;
+	background-color: var(--hero-text-color);
+	box-shadow: var(--shadow);
+	border-radius: 4px;
+	z-index: 1000;
+	margin-left: auto;
+	margin-right: auto;
+	@media screen and (min-width: 1200px) {
+		max-width: 528px;
+	}
+}
+
+.modal__header {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 12px;
+
+	color: var(--header-color);
+
+	@media screen and (min-width: 1200px) {
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 1.5;
+		letter-spacing: 0.03em;
+		text-align: center;
+	}
 }

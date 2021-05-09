@@ -1,0 +1,38 @@
+.menu-button {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	@media screen and (max-width: 767px) {
+		display: block;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		z-index: 10;
+	}
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+
+.menu-button .icon-menu-close {
+	display: none;
+}
+
+.menu-button.is-open .icon-menu-close {
+	display: block;
+}
+
+.menu-button.is-open .icon-menu {
+	display: none;
+}
+
+.menu-button:hover .icon-menu,
+.menu-button:focus .icon-menu {
+	fill: var(--logo-button-color);
+}
+
+.menu-button:hover .icon-menu-close,
+.menu-button:focus .icon-menu-close {
+	fill: var(--logo-button-color);
+}

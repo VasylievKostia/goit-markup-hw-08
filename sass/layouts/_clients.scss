@@ -1,48 +1,59 @@
 .clients {
-    text-align: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
+	text-align: center;
+	padding-top: 94px;
+	padding-bottom: 94px;
+	@media screen and (max-width: 1199px) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
 }
 
 .clients__title {
-font-weight: 700 ;
-font-size: 36px;
-line-height: 1.14;
-color:var(--header-color);
-margin-bottom: 50px;
-
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.14;
+	color: var(--header-color);
+	margin-bottom: 30px;
+	@media screen and (min-width: 1200px) {
+		margin-bottom: 50px;
+	}
 }
 
 .clients__list {
-    display:flex;
-    margin-left: -30px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
 }
 
 .clients__item {
-    width: calc(100% / 6 - 30px);
-    margin-left: 30px;
-    height: 90px;
-
-
+	// width: calc(100% / 6 - 30px);
+	// margin-left: 30px;
+	// height: 90px;
+	width: calc((100% - 4 * 15px) / 2);
+	margin: 15px;
+	@media screen and (min-width: 768px) {
+		width: calc((100% - 6 * 15px) / 3);
+	}
+	@media screen and (min-width: 1200px) {
+		width: calc((100% - 12 * 15px) / 6);
+	}
 }
 
 .clients__link {
-    border: 1px solid var(--icon-color);
-    fill: var(--icon-color);
-    box-sizing: border-box;
-    border-radius: 4px;
-    width: 170px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: fill var(--transformationt-time) var(--cubic-bezier),
-    border-color var(--transformationt-time) var(--cubic-bezier);
-
+	border: 1px solid var(--icon-color);
+	fill: var(--icon-color);
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 92px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: fill var(--transformationt-time) var(--cubic-bezier),
+		border-color var(--transformationt-time) var(--cubic-bezier);
 }
 
 .clients__link:hover,
 .clients__link:focus {
-    fill: var(--logo-button-color);
-    border-color: var(--logo-button-color);
+	fill: var(--logo-button-color);
+	border-color: var(--logo-button-color);
 }

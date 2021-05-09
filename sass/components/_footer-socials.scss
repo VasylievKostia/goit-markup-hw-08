@@ -1,28 +1,30 @@
 .footer-social-list__titel {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--hero-text-color);
-}
-
-.footer .social-links-list {
-    display: inline-flex;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--hero-text-color);
+	margin-bottom: 20px;
 }
 
 .footer-social-list__tomb {
-    margin-left: 70px;
+	@media screen and (max-width: 1199px) {
+		margin-bottom: 60px;
+	}
+	@media screen and (min-width: 1200px) {
+		margin-left: 70px;
+	}
 }
 
 .footer .icon {
-    fill: var(--hero-text-color);
+	fill: var(--hero-text-color);
 }
 
-.footer .social-icons-link {
-    background-color: var(--footer-icon-color);
+.social-list__link-dark-bg {
+	background-color: var(--footer-icon-color);
 }
 
 .footer .social-icons-link:focus,
 .footer .social-icons-link:hover {
-    background-color:var(--logo-button-color);
+	background-color: var(--logo-button-color);
 }

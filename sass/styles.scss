@@ -7,6 +7,8 @@
 @import "./components/nav";
 @import "./components/contacts";
 @import "./components/header-logo";
+@import "./components/menu-button";
+@import "./components/menu-social-list";
 
 @import "./layouts/hero";
 @import "./components/hero-text";
@@ -30,7 +32,7 @@
 @import "./components/footer_form";
 
 @import "./layouts/portholio";
-@import "./components/portholio-buttons.scss";
+@import "./components/portholio-buttons";
 @import "./layouts/porholio-card-list";
 @import "./components/portholio-cards";
 
@@ -38,5 +40,3 @@
 @import "./layouts/modal";
 @import "./components/button-close";
 @import "./components/mein-form";
-
-

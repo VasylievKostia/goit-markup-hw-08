@@ -13,14 +13,16 @@
     <title>Студия</title>
 </head>
 <body> 
-    <!-- <header class="header">
+    <header class="header">
         <div class="conteiner header__conteiner">
             
             <a class="header-logo" href="./index.html"><span class="logo--blue">Web</span>studio </a>
             
-            <div class="menu-thomb">
+            <div class="menu-thomb " data-menu>
+                
                 <nav class="nav">
                     <ul class="list nav__list">
+                      
                         <li class="nav__item"> 
                             <div class="nav__link-thomb"> 
                                 <a class="link nav__link nav--current" href="./index.html">Студия</a> 
@@ -28,7 +30,8 @@
                         </li>
                         <li class="nav__item"> <a class="link nav__link" href="./portfolio.html">Портфолио</a> </li>
                         <li class="nav__item"> <a class="link nav__link" href="#contacts">Контакты</a></li>
-                    </ul>    
+                    </ul>
+                    
                     </nav> 
                 
                 <ul class="list contacts">
@@ -48,20 +51,31 @@
                                 </svg>
                                 +38 096 111 11 11</a>
                         </li>
+
                 </ul> 
-            
-            <button type="button"><div class=""></div></button>
-            </div>  
+                <ul class="list menu-social-list">
+                    <li class="item menu-social-list__item"><a href="" class="link menu-social-list-link">Instagram</a></li>
+                    <li class="item menu-social-list__item"><a href="" class="link menu-social-list-link">Twitter</a></li>
+                    <li class="item menu-social-list__item"><a href="" class="link menu-social-list-link">Facebook</a></li>
+                    <li class="item menu-social-list__item"><a href="" class="link menu-social-list-link">LinkedIn</a></li>
+                </ul>
+            </div> 
+            <button type="button" class="menu-button" data-menu-button>
+                <svg width="40" height="40" aria-label="mobile menu switcher">
+                    <use class="icon-menu-close" href="./images/sprite.svg#icon-menu-close"></use>
+                    <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+                </svg>
+            </button>
         </div>
     </header>
-    <main> -->
+    <main>
         
-        <!-- <section class="hero">
-        <div class="conteiner">
+        <section class="hero">
+        <div class="conteiner hero__conteiner">
             <h1 class="hero__text">Эффективные решения для вашего бизнеса</h1>
             <button class="main-button" type="button" data-modal-open>Заказать услугу</button>
         </div>   
-        </section>  -->
+        </section> 
         
         <section class="qualities__section">
             <div class="conteiner">
@@ -113,7 +127,7 @@
         </div>
         </section>
     
-        <!-- <section class="what-we-do"> 
+        <section class="what-we-do"> 
             
             <div class="conteiner">
                 <h2 class="title what-we-do__title">Чем мы занимаемся</h2>
@@ -146,7 +160,7 @@
                         </li>
             </ul>
         </div>
-       </section>    -->
+       </section>   
        <section class="team-section">
            <div class="conteiner">
            
@@ -328,7 +342,7 @@
         </div>
        </section>
 
-       <!-- <section class="clients">
+       <section class="clients">
            <div class="conteiner">
            <h2 class="clients__title">
             Постоянные клиенты
@@ -373,11 +387,11 @@
               
            </ul>
         </div>
-       </section> -->
+       </section>
     </main>            
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="conteiner footer__conteiner">
-            <div class="footer-contacts__tomb">
+            
                 
                 <div class="footer-contacts">
                  
@@ -399,28 +413,28 @@
                 
                 <ul class="list social-list ">
                     <li class="social-list__item">
-                        <a href="" class="link social-list__link" target="_blank" rel="noopener noreferrer">
+                        <a href="" class="link social-list__link social-list__link-dark-bg" target="_blank" rel="noopener noreferrer">
                             <svg class="icon">
                                 <use href="./images/sprite.svg#icon-instagram-2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-list__item">   
-                            <a href="" class="link social-list__link" target="_blank" rel="noopener noreferrer">
+                            <a href="" class="link social-list__link social-list__link-dark-bg" target="_blank" rel="noopener noreferrer">
                                 <svg class="icon">
                                     <use href="./images/sprite.svg#icon-twitter-1"></use>
                                 </svg>
                             </a>
                     </li>
                     <li class="social-list__item">
-                            <a href="" class="link social-list__link" target="_blank" rel="noopener noreferrer">
+                            <a href="" class="link social-list__link social-list__link-dark-bg" target="_blank" rel="noopener noreferrer">
                                 <svg class="icon">
                                     <use href="./images/sprite.svg#icon-facebook-1"></use>
                                 </svg>
                             </a>
                     </li>
                     <li class="social-list__item">
-                        <a href="" class="link social-list__link" target="_blank" rel="noopener noreferrer">
+                        <a href="" class="link social-list__link social-list__link-dark-bg" target="_blank" rel="noopener noreferrer">
                             <svg class="icon">
                                 <use href="./images/sprite.svg#icon-linkedin-1"></use>
                             </svg>
@@ -428,7 +442,7 @@
                     </li>
                 </ul>
                 </div>
-            </div>
+            
             
             <div class="footer-form__tomb">
                 <p class="footer-form__text">Подпишитесь на рассылку</p>
@@ -436,9 +450,10 @@
                             <input class="footer-form__input" type="text" placeholder="E-mail" name="user-email">
                             <button class="main-button footer-form__button" type="submit">Подписаться</button>
                         </form>
+                        
             </div>
         </div>
-    </footer> -->
+    </footer>
 
     <div class="backdrop is-hidden" data-modal>
         
@@ -490,7 +505,8 @@
             </form>
         </div>
     </div>
-
+   
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
