@@ -32,6 +32,7 @@
 	display: flex;
 	justify-content: left;
 	flex-wrap: wrap;
+	margin-bottom: 40px;
 	@media screen and (min-width: 768px) {
 		justify-content: center;
 		margin-bottom: 30px;
@@ -41,9 +42,6 @@
 	}
 }
 
-.buttons-list__item {
-	// display: inline-block;
-}
 .buttons-list__item:not(:last-child) {
 	@media screen and (max-width: 767px) {
 		margin-right: 8px;
