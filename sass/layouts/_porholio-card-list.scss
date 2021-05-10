@@ -90,3 +90,10 @@
 .card__text-thomb {
 	padding: 20px 24px;
 }
+
+.card__text-thomb--padding-bottom {
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		padding-bottom: 400px;
+	}
+	padding-bottom: 400px;
+}
