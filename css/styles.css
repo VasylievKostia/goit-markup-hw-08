@@ -1115,10 +1115,6 @@ img {
   }
 }
 
-.buttons-list__item--bottom-margin {
-  margin-bottom: 0;
-}
-
 @media screen and (max-width: 767px) {
   .buttons-list__item:not(:last-child) {
     margin-right: 8px;
@@ -1130,6 +1126,10 @@ img {
   .buttons-list__item:not(:last-child) {
     margin-right: 8px;
   }
+}
+
+.buttons-list .buttons-list__item--margin-bottom {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {

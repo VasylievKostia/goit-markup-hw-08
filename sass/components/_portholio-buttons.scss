@@ -51,6 +51,6 @@
 		margin-right: 8px;
 	}
 }
-.buttons-list__item:last-child {
-	// margin-bottom: 40px;
+.buttons-list .buttons-list__item--margin-bottom {
+	margin-bottom: 0;
 }
