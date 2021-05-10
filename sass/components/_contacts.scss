@@ -30,7 +30,10 @@
 .contacts__link {
 	display: flex;
 	align-items: center;
-
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.02em;
 	@media screen and (max-width: 767px) {
 		font-weight: 500;
 		font-size: 24px;
@@ -38,15 +41,25 @@
 		letter-spacing: 0.02em;
 		padding: 0;
 	}
-	@media screen and (min-width: 768px) {
-		padding-top: 5px;
-		padding-bottom: 5px;
-	}
+
 	@media screen and (min-width: 1200px) {
 		padding-top: 32px;
 		padding-bottom: 32px;
 	}
 }
+.mail-link {
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		padding-top: 21px;
+		padding-bottom: 5px;
+	}
+}
+.tel-link {
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		padding-top: 5px;
+		padding-bottom: 21px;
+	}
+}
+
 .contacts__link:hover,
 .contacts__link:focus {
 	@media screen and (max-width: 767px) {
