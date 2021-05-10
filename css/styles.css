@@ -1198,6 +1198,12 @@ img {
   color: var(--hero-text-color);
 }
 
+@media screen and (max-width: 480px) {
+  .card__overlay-text {
+    font-size: 15px;
+  }
+}
+
 .card__tomb {
   position: relative;
   overflow: hidden;
@@ -1212,6 +1218,12 @@ img {
   height: 100%;
   padding: 77px 24px;
   transition: transform var(--transformationt-time) var(--cubic-bezier);
+}
+
+@media screen and (max-width: 480px) {
+  .card__overlay {
+    padding: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
